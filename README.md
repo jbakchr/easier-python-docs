@@ -1,57 +1,75 @@
 # easier-python-docs
 
-> Find Python solutions by problem, not by module.
+Find Python solutions by problem, not by module.
 
 ## Why?
 
 The official Python documentation is excellent.
 
-However, it is primarily designed as a **reference**. It works best when you already know:
+The challenge is usually not:
 
-- which module you need
-- which class you need
-- which function you need
+> How does this API work?
 
-Many Python developers (especially beginners and intermediates) often start somewhere else:
+The challenge is often:
 
-> I have a problem. What's the Pythonic way to solve it?
+> Which API should I use?
 
-For example:
+Many developers start with a problem:
 
-- How do I join a directory path and a filename?
-- How do I read a text file?
-- How do I check whether a file exists?
-- How do I load a JSON file?
-- How do I remove duplicates from a list?
+```text
+How do I join paths?
 
-The challenge is often not understanding the documentation.
+How do I read a text file?
 
-The challenge is finding the right documentation in the first place.
+How do I check whether a file exists?
+
+How do I load a JSON file?
+
+How do I remove duplicates from a list?
+```
+
+The official documentation is primarily organized as a reference.
+
+This project focuses on discovery.
+
+Its goal is to help you find the right Python solution faster and then direct you to the relevant official documentation.
+
+---
 
 ## What is this?
 
-**easier-python-docs** is a collection of small, problem-oriented pages that help connect common Python tasks with the relevant parts of the Python Standard Library.
+**easier-python-docs** is a collection of small, problem-oriented pages.
 
-Each page aims to answer:
+Each page focuses on a single task and answers questions such as:
 
-1. What problem am I trying to solve?
-2. What is the recommended Pythonic solution?
-3. Are there alternative solutions?
-4. Why might one solution be preferred?
-5. Where can I learn more in the official Python documentation?
+- What problem am I trying to solve?
+- What is the recommended Pythonic solution?
+- Why is it recommended?
+- What alternatives exist?
+- Where can I learn more in the official documentation?
+
+The goal is not to replace Python's documentation.
+
+The goal is to help people discover the right documentation.
+
+---
 
 ## Example
 
-### Join Paths
+### Get File Extension
 
 **Problem**
 
-I have a directory path and a filename.
+I have a file path:
+
+```text
+/home/user/projects/README.md
+```
 
 I want:
 
 ```text
-/path/to/project/README.md
+.md
 ```
 
 **Recommended Solution**
@@ -59,24 +77,24 @@ I want:
 ```python
 from pathlib import Path
 
-path = Path.cwd() / "README.md"
+extension = Path("README.md").suffix
 ```
 
-**Alternative**
+**Why Use This?**
 
-```python
-os.path.join(...)
-```
+`pathlib` provides a modern, readable, and cross-platform API for working with paths.
 
 **Official Documentation**
 
-- pathlib.Path
-- pathlib.Path.cwd()
-- pathlib.Path.__truediv__()
+- `pathlib.Path.suffix`
+
+---
 
 ## Documentation Structure
 
-The documentation is organized by problem domain rather than by Python module.
+Documentation is organized by problem domain rather than by module name.
+
+Current and planned categories include:
 
 ```text
 Filesystem
@@ -84,69 +102,150 @@ Strings
 Lists
 Dictionaries
 JSON
-CSV
 Dates & Times
 Environment Variables
 Subprocesses
-Testing
-CLI Applications
+Command Line Applications
 ```
 
-Within each category you will find "I want to..." style pages.
+Within each category, pages are organized around practical tasks.
 
-For example:
+Example:
 
 ```text
 Filesystem
 ├── Get current directory
 ├── Join paths
-├── Read a file
-├── Write a file
 ├── Check if a file exists
-├── Create a directory
-└── List files
+├── Read a text file
+├── Write a text file
+├── Get absolute path
+├── Get file name from path
+├── Get file extension
+└── Get parent directory
 ```
+
+---
 
 ## Design Principles
 
-- Problem-oriented
-- Beginner-friendly
-- Small focused pages
-- Modern Python practices
-- Standard Library first
-- Links back to the official documentation
-- Learn the "why", not just the code
+### Problem-Oriented
+
+Pages start with a practical problem.
+
+Not a module name.
+
+Not a class name.
+
+Not a function name.
+
+### Small Focused Pages
+
+Favor:
+
+- one problem
+- one solution
+- one page
+
+Over large tutorials and reference-style documentation.
+
+### Modern Python
+
+Prefer modern Python approaches when reasonable.
+
+For example:
+
+```python
+from pathlib import Path
+```
+
+instead of older `os.path` approaches.
+
+Alternative solutions are still documented when useful.
+
+### Standard Library First
+
+Prefer solutions from the Python Standard Library whenever possible.
+
+### Learn the Why
+
+Pages should explain:
+
+- why a solution works
+- when to use it
+- why it may be preferred
+
+Not just provide code snippets.
+
+---
+
+## Who Is This For?
+
+This project is especially useful for:
+
+- Python beginners
+- Intermediate Python developers
+- Developers moving to modern Python practices
+- Anyone who has ever thought:
+
+```text
+I know Python probably has a solution.
+
+I just don't remember what it's called.
+```
+
+---
+
+## Website
+
+The documentation is published using GitHub Pages.
+
+Browse the documentation online:
+
+```text
+https://jbakchr.github.io/easier-python-docs/
+```
+
+---
 
 ## Non-Goals
 
 This project is not:
 
-- A replacement for the official Python documentation
+- A replacement for docs.python.org
 - A Python tutorial
 - A complete Python reference
-- A collection of copy-paste snippets without explanation
+- A framework-specific guide
+- A collection of random snippets
 
-Instead, it aims to be a practical bridge between:
+Instead, it aims to be a navigation layer between:
 
 ```text
-"I have a problem"
+I have a problem
 ```
 
 and
 
 ```text
-"I found the right Python documentation"
+I found the right Python documentation
 ```
+
+---
 
 ## Contributing
 
-This project will grow gradually as new Python problems and solutions are discovered.
+A page is usually worth creating if:
 
-If you've ever searched for:
+- It solves a practical Python problem
+- It can be explained on a single page
+- There is a clear recommended solution
+- It naturally links to official Python documentation
 
-> "How do I do X in Python?"
+A useful rule of thumb:
 
-and found the answer, that may be a great candidate for a new page.
+> If I would Google it, it is probably a good easier-python-docs page.
+
+---
 
 ## License
 
