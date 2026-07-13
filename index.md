@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Home
 ---
+
+Find Python solutions by problem, not by module.
 
 ## I want to...
 
