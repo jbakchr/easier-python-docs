@@ -50,6 +50,9 @@ A page is most valuable when it solves a problem many Python developers regularl
 
 - Read a JSON file
 - Write a JSON file
+- Pretty-print JSON
+- Convert JSON to a dictionary
+- Convert a dictionary to JSON
 
 ---
 
@@ -65,12 +68,6 @@ This tier should receive the majority of attention.
 - Move a file
 - Rename a file
 - Delete a file
-
-## JSON
-
-- Pretty-print JSON
-- Convert JSON to a dictionary
-- Convert a dictionary to JSON
 
 ## Strings
 
