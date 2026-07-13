@@ -23,6 +23,7 @@ Work with files, directories, and paths.
 - [Get absolute path](filesystem/get-absolute-path.html)
 - [Get file name from path](filesystem/get-file-name-from-path)
 - [Get file extension](filesystem/get-file-extension)
+- [Get parent directory](filesystem/get-parent-directory)
 
 ---
 
