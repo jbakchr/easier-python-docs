@@ -17,6 +17,7 @@ title: Home
 - [Append to a text file](https://jbakchr.github.io/easier-python-docs/filesystem/append-to-text-file.html)
 - [List files in a directory](https://jbakchr.github.io/easier-python-docs/filesystem/list-files-in-directory.html)
 - [Find files recursively](https://jbakchr.github.io/easier-python-docs/filesystem/find-files-recursively.html)
+- [Create a directory](https://jbakchr.github.io/easier-python-docs/filesystem/create-directory.html)
 
 ---
 
