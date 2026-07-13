@@ -9,16 +9,9 @@ title: Home
 
 ### Filesystem
 
+- [Get current directory](https://jbakchr.github.io/easier-python-docs/filesystem/get-current-directory)
 - [Join paths](https://jbakchr.github.io/easier-python-docs/filesystem/join-paths)
-- Read a file
-- Write a file
 
-### Strings
+---
 
-- Split strings
-- Join strings
-
-### JSON
-
-- Read JSON
-- Write JSON
+_more will be added gradually .._
