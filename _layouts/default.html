@@ -1,56 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>
-    {% if page.title %}
-      {{ page.title }} | easier-python-docs
-    {% else %}
-      easier-python-docs
-    {% endif %}
-  </title>
+    <title>
+      {% if page.title %} {{ page.title }} | easier-python-docs {% else %}
+      easier-python-docs {% endif %}
+    </title>
 
-  <style>
-    body {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem;
-      font-family: sans-serif;
-      line-height: 1.6;
-    }
+    <style>
+      body {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem;
+        font-family: sans-serif;
+        line-height: 1.6;
+      }
 
-    header {
-      margin-bottom: 2rem;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 1rem;
-    }
+      header {
+        margin-bottom: 2rem;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 1rem;
+      }
 
-    .site-title {
-      font-size: 2rem;
-      font-weight: bold;
-      text-decoration: none;
-      color: inherit;
-    }
+      .site-title {
+        font-size: 1.75rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: inherit;
+      }
 
-    .site-title:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
+      .site-title:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <a class="site-title" href="{{ '/' | relative_url }}">
+        easier-python-docs
+      </a>
+    </header>
 
-  <header>
-    {{ '/' | relative_url }}
-      easier-python-docs
-    </a>
-  </header>
-
-  <main>
-    {{ content }}
-  </main>
-
-</body>
+    <main>{{ content }}</main>
+  </body>
 </html>
