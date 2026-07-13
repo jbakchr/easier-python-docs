@@ -7,7 +7,9 @@ title: Home
 
 ### Filesystem
 
-- [Get current directory](https://jbakchr.github.io/easier-python-docs/filesystem/get-current-directory)
+Work with files, directories, and paths.
+
+- [Get current directory](filesystem/get-current-directory)
 - [Join paths](https://jbakchr.github.io/easier-python-docs/filesystem/join-paths)
 - [Check if a file exists](https://jbakchr.github.io/easier-python-docs/filesystem/check-if-a-file-exists.html)
 - [Read a text file](https://jbakchr.github.io/easier-python-docs/filesystem/read-text-file.html)
