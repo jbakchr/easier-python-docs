@@ -46,6 +46,11 @@ A page is most valuable when it solves a problem many Python developers regularl
 - Get parent directory
 - Resolve relative paths
 
+### JSON
+
+- Read a JSON file
+- Write a JSON file
+
 ---
 
 # 🥇 Tier 1 — High-Frequency Problems
@@ -63,8 +68,6 @@ This tier should receive the majority of attention.
 
 ## JSON
 
-- Read a JSON file
-- Write a JSON file
 - Pretty-print JSON
 - Convert JSON to a dictionary
 - Convert a dictionary to JSON
