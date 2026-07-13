@@ -44,6 +44,7 @@ A page is most valuable when it solves a problem many Python developers regularl
 - Get file name from path
 - Get file extension
 - Get parent directory
+- Resolve relative paths
 
 ---
 
@@ -55,7 +56,6 @@ This tier should receive the majority of attention.
 
 ## Filesystem
 
-- Resolve relative paths
 - Copy a file
 - Move a file
 - Rename a file
