@@ -2,11 +2,11 @@
 layout: default
 ---
 
-Find Python solutions by problem, not by module.
-
----
+> Find Python solutions by problem, not by module.
 
 ## I want to ..
+
+---
 
 ### _Filesystem_
 
