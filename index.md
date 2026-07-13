@@ -14,6 +14,7 @@ title: Home
 - [Check if a file exists](https://jbakchr.github.io/easier-python-docs/filesystem/check-if-a-file-exists.html)
 - [Read a text file](https://jbakchr.github.io/easier-python-docs/filesystem/read-text-file.html)
 - [Write a text file](https://jbakchr.github.io/easier-python-docs/filesystem/write-text-file.html)
+- [Append to a text file](https://jbakchr.github.io/easier-python-docs/filesystem/append-to-text-file.html)
 
 ---
 
