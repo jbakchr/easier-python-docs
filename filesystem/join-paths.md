@@ -5,6 +5,8 @@ title: Join Paths
 
 # Join Paths
 
+---
+
 ## Problem
 
 I have a directory path and a filename and want a complete path.
@@ -46,9 +48,11 @@ path = os.path.join(os.getcwd(), "README.md")
 
 ## Related Problems
 
-- Get current directory
-- Check if a file exists
-- Read a file
+- [Get current directory](get-current-directory)
+- [Check if a file exists](check-if-a-file-exists)
+- [Read a file](read-text-file)
+
+---
 
 ## Official Documentation
 
