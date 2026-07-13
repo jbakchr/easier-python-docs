@@ -35,6 +35,7 @@ Work with files, directories, and paths.
 Work with JSON.
 
 - [Read JSON file](json/read-json-file)
+- [Write JSON file](json/write-json-file)
 
 ---
 
