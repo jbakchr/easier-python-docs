@@ -36,6 +36,7 @@ Work with JSON.
 
 - [Read JSON file](json/read-json-file)
 - [Write JSON file](json/write-json-file)
+- [Pretty-Print JSON](json/pretty-print-json)
 
 ---
 
