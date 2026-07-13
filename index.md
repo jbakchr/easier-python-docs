@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# easier-python-docs
-
 ## I want to...
 
 ### Filesystem
