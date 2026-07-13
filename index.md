@@ -9,7 +9,7 @@ title: Home
 
 ### Filesystem
 
-- Join paths
+- [Join paths](https://jbakchr.github.io/easier-python-docs/filesystem/join-paths)
 - Read a file
 - Write a file
 
