@@ -21,6 +21,8 @@ Work with files, directories, and paths.
 - [Create a directory](filesystem/create-directory.html)
 - [Check if a directory exists](filesystem/check-if-directory-exists.html)
 - [Get absolute path](filesystem/get-absolute-path.html)
+- [Get file name from path](filesystem/get-file-name-from-path)
+- [Get file extension](filesystem/get-file-extension)
 
 ---
 
