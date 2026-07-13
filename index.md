@@ -4,6 +4,8 @@ layout: default
 
 Find Python solutions by problem, not by module.
 
+---
+
 ## I want to...
 
 ### Filesystem
@@ -27,5 +29,11 @@ Work with files, directories, and paths.
 - [Resolve relative paths](filesystem/resolve-relative-paths)
 
 ---
+
+### JSON
+
+Work with JSON.
+
+- [Read JSON file](json/read-json-file)
 
 _more will be added gradually .._
