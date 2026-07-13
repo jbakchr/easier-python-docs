@@ -23,17 +23,17 @@ The focus is:
 
 ---
 
-## 🎯 Core philosophy
+## 🎯 Core Philosophy
 
 The official Python documentation is excellent.
 
 The challenge is often not:
 
-> "How does this API work?"
+> How does this API work?
 
 The challenge is:
 
-> "Which API should I use?"
+> Which API should I use?
 
 Most documentation is organized like:
 
@@ -61,7 +61,7 @@ The goal of easier-python-docs is to bridge that gap.
 
 ---
 
-## ⚡ Key realization (important)
+## ⚡ Key Realization
 
 The problem was never:
 
@@ -85,19 +85,37 @@ How do I read a text file?
 How do I check whether a file exists?
 
 How do I write a JSON file?
+
+How do I remove duplicates from a list?
 ```
 
 People usually start with a task.
 
-Not a module name.
+Not a module.
 
-Not a class name.
+Not a class.
 
-Not a function name.
+Not a function.
 
 ---
 
-## 🔁 Documentation model
+## 🔍 Discovery First
+
+This project optimizes for discovery.
+
+Many developers know Python probably contains a solution.
+
+What they often do not know is:
+
+- which API provides it
+- which module contains it
+- what the functionality is called
+
+The project exists to reduce that discovery friction.
+
+---
+
+## 🔁 Documentation Model
 
 Every page follows roughly the same structure.
 
@@ -108,7 +126,7 @@ What is the user trying to accomplish?
 Example:
 
 ```text
-I want to read a text file.
+I want to read a JSON file.
 ```
 
 ### Recommended Solution
@@ -118,9 +136,10 @@ The modern Pythonic approach.
 Example:
 
 ```python
-from pathlib import Path
+import json
 
-content = Path("README.md").read_text()
+with open("config.json") as file:
+    data = json.load(file)
 ```
 
 ### Why Use This?
@@ -134,8 +153,8 @@ Describe older or alternative approaches.
 Example:
 
 ```python
-open(...)
 os.path.join(...)
+open(...)
 os.walk(...)
 ```
 
@@ -153,7 +172,7 @@ Always link back to the official Python documentation.
 
 ---
 
-## 🧪 Current state
+## 🧪 Current State
 
 The project currently exists as:
 
@@ -163,51 +182,21 @@ The project currently exists as:
 
 ✅ Markdown-based documentation
 
-✅ Category-based navigation
+✅ Custom documentation layout
+
+✅ Problem-oriented homepage
+
+✅ Dark-mode inspired styling
 
 ✅ Filesystem documentation section
 
----
-
-## 📚 Current structure
-
-The documentation is organized by problem domain.
-
-Example:
-
-```text
-Filesystem
-Strings
-Lists
-Dictionaries
-JSON
-CSV
-Dates & Times
-```
-
-Each section contains pages focused on specific problems.
-
-Example:
-
-```text
-Filesystem
-├── Get current directory
-├── Join paths
-├── Check if a file exists
-├── Read a text file
-├── Write a text file
-├── Append to a text file
-├── List files in a directory
-├── Find files recursively
-├── Create a directory
-└── Check if a directory exists
-```
+✅ JSON documentation section
 
 ---
 
-## 📁 Current Filesystem Pages
+## 📚 Current Coverage
 
-Pages drafted so far:
+### Filesystem
 
 ✅ Join paths
 
@@ -229,9 +218,59 @@ Pages drafted so far:
 
 ✅ Check if a directory exists
 
+✅ Get absolute path
+
+✅ Get file name from path
+
+✅ Get file extension
+
+✅ Get parent directory
+
+✅ Resolve relative paths
+
+### JSON
+
+✅ Read a JSON file
+
+✅ Write a JSON file
+
+✅ Pretty-print JSON
+
+✅ Convert JSON to a dictionary
+
+✅ Convert a dictionary to JSON
+
+### Strings
+
+🚧 Planned
+
+### Lists
+
+🚧 Planned
+
+### Dictionaries
+
+🚧 Planned
+
+### Dates and Times
+
+🚧 Planned
+
+### Environment Variables
+
+🚧 Planned
+
+### Subprocesses
+
+🚧 Planned
+
+### Command Line Applications
+
+🚧 Planned
+
 ---
 
-## 🧠 Core concept
+## 🧠 Core Concept
 
 The most important idea in easier-python-docs is:
 
@@ -253,7 +292,7 @@ Every page should start with a real-world problem.
 
 ---
 
-## ✅ UX principles
+## ✅ UX Principles
 
 ### Discovery First
 
@@ -265,7 +304,29 @@ How do I accomplish this task in Python?
 
 before explaining implementation details.
 
----
+### Question-Oriented Titles
+
+Prefer:
+
+```text
+Get File Extension
+
+Read a JSON File
+
+Remove Duplicates from a List
+```
+
+over:
+
+```text
+Path.suffix
+
+json.load()
+
+set()
+```
+
+A page title should resemble something somebody would search for.
 
 ### Small Focused Pages
 
@@ -281,8 +342,6 @@ Over:
 - long reference pages
 - covering multiple unrelated concepts
 
----
-
 ### Modern Python
 
 Prefer modern Python approaches whenever reasonable.
@@ -297,15 +356,11 @@ Over:
 
 Alternative solutions should still be documented.
 
----
-
 ### Standard Library First
 
 Favor solutions from the Python Standard Library before introducing external dependencies.
 
 The goal is to help people become comfortable with Python itself.
-
----
 
 ### Learn the Why
 
@@ -319,51 +374,63 @@ They should explain:
 
 ---
 
-## 🔍 Key insights so far
+## 🔍 Key Insights So Far
 
-- ✅ People think in problems, not modules
-- ✅ Discovery and reference are different things
-- ✅ Small pages are easier to scan
-- ✅ Explicit page titles reduce confusion
-- ✅ Related pages create learning pathways
-- ✅ Official docs remain the source of truth
-- ✅ The project should complement, not replace, existing documentation
-- ✅ Simple structure improves maintainability
+✅ People think in problems, not modules
+
+✅ Discovery and reference are different things
+
+✅ Small pages are easier to scan
+
+✅ Explicit page titles reduce confusion
+
+✅ Related pages create learning pathways
+
+✅ Official docs remain the source of truth
+
+✅ The project should complement, not replace, existing documentation
+
+✅ Simple structure improves maintainability
+
+✅ Discovery value is often more important than technical depth
 
 ---
 
-## 🎯 Current phase
+## 🎯 Current Phase
 
 easier-python-docs is currently in:
 
-FOUNDATION + CONTENT CREATION
+### FOUNDATION + CONTENT CREATION
 
 Not:
 
-- search engine implementation
+- search implementation
 - advanced navigation
-- custom documentation platform
 - AI-powered documentation
+- custom documentation platforms
+- comprehensive Python coverage
 
 Current focus:
 
-### Build the filesystem section
+### Complete Tier 1 Pages
 
-Create high-quality foundational pages.
+Prioritize the most common Python problems first.
 
-### Validate usefulness
+### Expand Coverage Gradually
 
-Use the site as a reference during real Python work.
+Focus on practical real-world tasks.
 
-Observe whether it is easier to find solutions.
+### Validate Usefulness
 
-### Establish a consistent page format
+Use the site during real Python development work.
+
+### Maintain Consistency
 
 Every page should feel familiar and predictable.
 
 ---
 
-## 🔄 Structural direction
+## 🔄 Structural Direction
 
 From:
 
@@ -391,7 +458,7 @@ Make common solutions easy to discover
 
 ---
 
-## 🚫 Non-goals
+## 🚫 Non-Goals
 
 easier-python-docs is NOT:
 
@@ -404,7 +471,7 @@ easier-python-docs is NOT:
 
 ---
 
-## ✅ What makes this project different
+## ✅ What Makes This Project Different
 
 This is not:
 
@@ -431,7 +498,7 @@ Designed to:
 
 ---
 
-## 🧠 Why this matters (personally)
+## 🧠 Why This Matters (Personally)
 
 This project was inspired by a recurring frustration:
 
@@ -449,7 +516,7 @@ This project helps reduce that friction.
 
 ---
 
-## 🏁 Definition of success
+## 🏁 Definition of Success
 
 Someone has a Python problem.
 
@@ -491,10 +558,11 @@ Help people find the right docs faster.
 
 ---
 
-## 🚀 What I want help with in a new chat
+## 🚀 What I Want Help With in a New Chat
 
 - Continue expanding the documentation
 - Create additional problem-oriented pages
+- Prioritize high-frequency Python problems
 - Improve navigation and structure
 - Keep content small and focused
 - Improve discoverability
@@ -504,7 +572,7 @@ Help people find the right docs faster.
 
 ---
 
-## 💡 How to use this context
+## 💡 How to Use This Context
 
 When starting a new chat:
 
@@ -518,6 +586,6 @@ Help me evolve it without overengineering.
 
 The most important thing to remember:
 
-easier-python-docs is a problem-oriented discovery system for Python documentation.
+> easier-python-docs is a problem-oriented discovery system for Python documentation.
 
 It is not a replacement for the official Python documentation.
