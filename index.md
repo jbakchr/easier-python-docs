@@ -19,6 +19,7 @@ title: Home
 - [Find files recursively](https://jbakchr.github.io/easier-python-docs/filesystem/find-files-recursively.html)
 - [Create a directory](https://jbakchr.github.io/easier-python-docs/filesystem/create-directory.html)
 - [Check if a directory exists](https://jbakchr.github.io/easier-python-docs/filesystem/check-if-directory-exists.html)
+- [Get absolute path](https://jbakchr.github.io/easier-python-docs/filesystem/get-absolute-path.html)
 
 ---
 
