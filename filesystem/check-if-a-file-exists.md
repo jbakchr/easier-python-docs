@@ -5,6 +5,8 @@ title: Check if a File Exists
 
 # Check if a File Exists
 
+---
+
 ## Problem
 
 I want to check whether a file exists before working with it.
@@ -16,6 +18,8 @@ README.md
 ```
 
 actually exists in the current directory.
+
+---
 
 ## Recommended Solution
 
@@ -38,6 +42,8 @@ Example output:
 File exists
 ```
 
+---
+
 ## Why Use `pathlib`?
 
 `pathlib` is the modern path-handling library in the Python Standard Library.
@@ -56,6 +62,8 @@ from pathlib import Path
 
 readme = Path.cwd() / "README.md"
 ```
+
+---
 
 ## Checking Specifically for a File
 
@@ -76,6 +84,8 @@ else:
 
 This is often the better choice when you specifically expect a file.
 
+---
+
 ## Alternative
 
 Older Python code often uses `os.path.exists()`.
@@ -88,6 +98,8 @@ if os.path.exists("README.md"):
 ```
 
 This is still perfectly valid Python and is commonly found in existing codebases.
+
+---
 
 ## When Would I Use This?
 
@@ -110,6 +122,8 @@ if config_file.exists():
     print("Loading configuration...")
 ```
 
+---
+
 ## Related Problems
 
 - Get current directory
@@ -117,6 +131,8 @@ if config_file.exists():
 - Read a file
 - Write a file
 - Check if a directory exists
+
+---
 
 ## Official Documentation
 
