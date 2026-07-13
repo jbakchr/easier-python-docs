@@ -24,7 +24,7 @@ Work with files, directories, and paths.
 - [Get file name from path](filesystem/get-file-name-from-path)
 - [Get file extension](filesystem/get-file-extension)
 - [Get parent directory](filesystem/get-parent-directory)
-- [Get parent directory](filesystem/resolve-relative-paths)
+- [Resolve relative paths](filesystem/resolve-relative-paths)
 
 ---
 
