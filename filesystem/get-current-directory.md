@@ -5,6 +5,8 @@ title: Get Current Directory
 
 # Get Current Directory
 
+---
+
 ## Problem
 
 I want to find the current working directory.
@@ -16,6 +18,8 @@ For example, if my Python script is running from:
 ```
 
 I want to get that path in my Python code.
+
+---
 
 ## Recommended Solution
 
@@ -35,6 +39,8 @@ Example output:
 /home/jonas/my-project
 ```
 
+---
+
 ## Why Use `pathlib`?
 
 `pathlib` is the modern path-handling library in the Python Standard Library.
@@ -53,6 +59,8 @@ from pathlib import Path
 
 readme = Path.cwd() / "README.md"
 ```
+
+---
 
 ## Alternative
 
@@ -74,6 +82,8 @@ Example output:
 
 This is still perfectly valid Python and is commonly found in existing codebases.
 
+---
+
 ## When Would I Use This?
 
 Common situations include:
@@ -92,6 +102,8 @@ from pathlib import Path
 config_file = Path.cwd() / "config.json"
 ```
 
+---
+
 ## Related Problems
 
 - Join paths
@@ -99,6 +111,8 @@ config_file = Path.cwd() / "config.json"
 - Read a file
 - Write a file
 - List files in a directory
+
+---
 
 ## Official Documentation
 
@@ -109,6 +123,8 @@ Python Documentation:
 
 - https://docs.python.org/3/library/pathlib.html
 - https://docs.python.org/3/library/os.html
+
+---
 
 ## Summary
 
