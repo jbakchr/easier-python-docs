@@ -15,6 +15,7 @@ title: Home
 - [Read a text file](https://jbakchr.github.io/easier-python-docs/filesystem/read-text-file.html)
 - [Write a text file](https://jbakchr.github.io/easier-python-docs/filesystem/write-text-file.html)
 - [Append to a text file](https://jbakchr.github.io/easier-python-docs/filesystem/append-to-text-file.html)
+- [List files in a directory](https://jbakchr.github.io/easier-python-docs/filesystem/list-files-in-directory.html)
 
 ---
 
