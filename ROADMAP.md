@@ -1,249 +1,254 @@
 # easier-python-docs - ROADMAP
 
-> Find Python solutions by problem, not by module.
+Find Python solutions by problem, not by module.
 
 ## Philosophy
 
-This roadmap is not a strict plan.
+This roadmap is intentionally lightweight.
 
-Instead, it is a growing collection of useful Python problems that may be worth documenting.
+It is not a checklist that must be completed.
 
-New pages should be added whenever a recurring Python question or practical problem is encountered.
+It is a prioritization guide.
 
 The goal is not:
 
 - document everything
 - cover all of Python
-- follow this roadmap strictly
+- create a complete reference
 
 The goal is:
 
 - reduce discovery friction
-- document common solutions
-- help people find the right Python API faster
+- help people find Pythonic solutions faster
+- connect real-world problems to the right Python APIs
+
+A page is most valuable when it solves a problem many Python developers regularly search for.
 
 ---
 
-# ✅ Completed
+## ✅ Completed
+
+### Filesystem
+
+- Join paths
+- Get current directory
+- Check if a file exists
+- Read a text file
+- Write a text file
+- Append to a text file
+- List files in a directory
+- Find files recursively
+- Create a directory
+- Check if a directory exists
+
+---
+
+# 🥇 Tier 1 — High-Frequency Problems
+
+These are problems that many Python developers encounter regularly.
+
+This tier should receive the majority of attention.
 
 ## Filesystem
 
-- [x] Join paths
-- [x] Get current directory
-- [x] Check if a file exists
-- [x] Read a text file
-- [x] Write a text file
-- [x] Append to a text file
-- [x] List files in a directory
-- [x] Find files recursively
-- [x] Create a directory
-- [x] Check if a directory exists
+- Get absolute path
+- Get file name from path
+- Get file extension
+- Get parent directory
+- Resolve relative paths
+- Copy a file
+- Move a file
+- Rename a file
+- Delete a file
+
+## JSON
+
+- Read a JSON file
+- Write a JSON file
+- Pretty-print JSON
+- Convert JSON to a dictionary
+- Convert a dictionary to JSON
+
+## Strings
+
+- Split a string
+- Join strings
+- Replace text
+- Remove whitespace
+- Check if text contains a substring
+- Check if text starts with a value
+- Check if text ends with a value
+
+## Lists
+
+- Add an item to a list
+- Remove an item from a list
+- Sort a list
+- Remove duplicates
+- Find an item in a list
+- Filter a list
+
+## Dictionaries
+
+- Get a value by key
+- Add a key/value pair
+- Update a value
+- Check if a key exists
+- Get a default value
+
+## Dates and Times
+
+- Get current date
+- Get current datetime
+- Format a date
+- Parse a date string
+
+## Environment Variables
+
+- Read an environment variable
+- Provide a default value
+- Check whether an environment variable exists
+
+## Subprocesses
+
+- Run a command
+- Capture command output
+
+## Command Line Applications
+
+- Read command-line arguments
+- Accept flags
+- Display help text
 
 ---
 
-# 🚧 Filesystem
+# 🥈 Tier 2 — Common but Less Frequent Problems
 
-These are natural next additions to the Filesystem section.
+Useful tasks that developers encounter occasionally.
 
-## Paths
+## Filesystem
 
-- [ ] Get absolute path
-- [ ] Get file name from path
-- [ ] Get file extension
-- [ ] Get parent directory
-- [ ] Resolve relative paths
+- Create nested directories
+- Create an empty file
+- Get file size
+- Get file modification time
+- Delete a directory
+- Rename a directory
+- List only files
+- List only directories
 
-## Files
+## Strings
 
-- [ ] Copy a file
-- [ ] Move a file
-- [ ] Rename a file
-- [ ] Delete a file
-- [ ] Create an empty file
-- [ ] Get file size
-- [ ] Get file modification time
+- Convert to uppercase
+- Convert to lowercase
+- Count occurrences of text
+- Pad a string
+- Truncate a string
 
-## Directories
+## Lists
 
-- [ ] Create nested directories
-- [ ] Delete a directory
-- [ ] Rename a directory
-- [ ] List only files
-- [ ] List only directories
+- Reverse a list
+- Loop through a list
+- Flatten nested lists
 
-## Searching
+## Dictionaries
 
-- [ ] Find files by extension
-- [ ] Find the newest file
-- [ ] Find the largest file
-- [ ] Search for files matching a pattern
+- Delete a key
+- Merge dictionaries
+- Loop through a dictionary
 
----
+## Dates and Times
 
-# 📋 Strings
+- Calculate days between dates
+- Add days to a date
 
-## Basic Operations
+## Subprocesses
 
-- [ ] Split a string
-- [ ] Join strings
-- [ ] Replace text
-- [ ] Remove whitespace
-- [ ] Convert to uppercase
-- [ ] Convert to lowercase
+- Check command exit status
+- Pass arguments to a command
 
-## Searching
+## Command Line Applications
 
-- [ ] Check if text contains a substring
-- [ ] Check if a string starts with text
-- [ ] Check if a string ends with text
-- [ ] Count occurrences of text
-
-## Formatting
-
-- [ ] Format strings using f-strings
-- [ ] Pad a string
-- [ ] Truncate a string
+- Accept positional arguments
+- Read input from a user
+- Prompt for confirmation
 
 ---
 
-# 📋 Lists
+# 🥉 Tier 3 — Nice-to-Have Problems
 
-## Basic Operations
+These pages are useful but should generally be written only when:
 
-- [ ] Create a list
-- [ ] Add an item to a list
-- [ ] Remove an item from a list
-- [ ] Sort a list
-- [ ] Reverse a list
+- personally needed
+- repeatedly searched for
+- naturally connected to existing pages
 
-## Common Tasks
+## Filesystem
 
-- [ ] Remove duplicates
-- [ ] Find an item in a list
-- [ ] Filter a list
-- [ ] Loop through a list
-- [ ] Flatten nested lists
+- Find files by extension
+- Find newest file
+- Find largest file
+- Search for files matching a pattern
 
----
+## Environment Variables
 
-# 📋 Dictionaries
-
-## Basic Operations
-
-- [ ] Create a dictionary
-- [ ] Get a value by key
-- [ ] Add a key/value pair
-- [ ] Update a value
-- [ ] Delete a key
-
-## Common Tasks
-
-- [ ] Check if a key exists
-- [ ] Loop through a dictionary
-- [ ] Merge dictionaries
-- [ ] Get a default value
+- Load variables from a .env file
 
 ---
 
-# 📋 JSON
+# 🌱 Future Categories
 
-## Files
+These categories may eventually be added if they continue to align with the project's philosophy.
 
-- [ ] Read a JSON file
-- [ ] Write a JSON file
-- [ ] Pretty-print JSON
+## Data Files
 
-## Conversion
+- Read a CSV file
+- Write a CSV file
+- Read a TOML file
+- Write a TOML file
+- Read a YAML file
+- Write a YAML file
 
-- [ ] Convert a dictionary to JSON
-- [ ] Convert JSON to a dictionary
+## Testing
 
----
+- Write a simple test
+- Run tests with pytest
+- Check expected exceptions
 
-# 📋 Dates and Times
+## Iteration
 
-## Common Tasks
-
-- [ ] Get current date
-- [ ] Get current datetime
-- [ ] Format a date
-- [ ] Parse a date string
-- [ ] Calculate days between dates
-- [ ] Add days to a date
-
----
-
-# 📋 Environment Variables
-
-## Common Tasks
-
-- [ ] Read an environment variable
-- [ ] Provide a default value
-- [ ] Check whether an environment variable exists
-- [ ] Load variables from a .env file
-
----
-
-# 📋 Subprocesses
-
-## Common Tasks
-
-- [ ] Run a command
-- [ ] Capture command output
-- [ ] Check command exit status
-- [ ] Pass arguments to a command
-
----
-
-# 📋 Command Line Applications
-
-## argparse
-
-- [ ] Read command-line arguments
-- [ ] Accept positional arguments
-- [ ] Accept flags
-- [ ] Display help text
-
-## User Input
-
-- [ ] Read input from a user
-- [ ] Prompt for confirmation
-
----
-
-# 🌟 Possible Future Improvements
-
-These are improvements to the website itself rather than new pages.
-
-## Navigation
-
-- [ ] Site-wide problem index
-- [ ] Related pages section everywhere
-- [ ] Breadcrumb navigation
-
-## Search
-
-- [ ] Site search
-- [ ] Problem-oriented search page
-
-## Content
-
-- [ ] More cross-linking between pages
-- [ ] Consistent page templates
-- [ ] Example projects using documented concepts
+- Loop through a dictionary
+- Loop with an index
+- Group values
+- Enumerate items
 
 ---
 
 # 💡 New Page Rule
 
-A page is probably worth creating if:
+A page is probably worth creating when:
 
-- I have personally searched for it multiple times
-- It solves a practical Python problem
-- It can be explained on a single page
-- It has a clear recommended solution
+- I have searched for it multiple times
+- It solves a practical problem
+- The solution can be explained on one page
+- There is a clear recommended approach
 - It links naturally to official Python documentation
 
-If in doubt:
+A useful rule of thumb:
 
-> If I would Google it, it is probably a good easier-python-docs page.
+> If I would search for it, it is probably a good easier-python-docs page.
+
+---
+
+# 🧭 Priority Rule
+
+When choosing the next page to write:
+
+1. Tier 1 always beats Tier 2.
+2. Tier 2 always beats Tier 3.
+3. Real-world usefulness beats completeness.
+4. Discovery value beats technical depth.
+
+The goal is not to document everything.
+
+The goal is to help people find the right Python solution faster.
