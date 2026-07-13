@@ -26,6 +26,82 @@ A page is most valuable when it solves a problem many Python developers regularl
 
 ---
 
+## 🔍 Discovery First
+
+This project optimizes for discovery.
+
+Many developers know Python probably contains a solution.
+
+What they often do not know is:
+
+- which API provides it
+- which module contains it
+- what the functionality is called
+
+The project exists to reduce that discovery friction.
+
+---
+
+## 🎯 Current Focus
+
+The current priority is:
+
+1. Complete remaining Tier 1 pages
+2. Expand coverage of common Python tasks
+3. Improve cross-linking between related pages
+4. Validate usefulness during real Python work
+
+The goal right now is not:
+
+- designing advanced navigation
+- implementing search
+- documenting edge cases
+- covering every Python feature
+
+The goal is to build a practical collection of high-frequency Python solutions.
+
+---
+
+## 📚 Current Coverage
+
+### Filesystem
+
+✅ 15 pages completed
+
+### JSON
+
+✅ 5 pages completed
+
+### Strings
+
+🚧 Not started
+
+### Lists
+
+🚧 Not started
+
+### Dictionaries
+
+🚧 Not started
+
+### Dates and Times
+
+🚧 Not started
+
+### Environment Variables
+
+🚧 Not started
+
+### Subprocesses
+
+🚧 Not started
+
+### Command Line Applications
+
+🚧 Not started
+
+---
+
 ## ✅ Completed
 
 ### Filesystem
@@ -62,13 +138,6 @@ These are problems that many Python developers encounter regularly.
 
 This tier should receive the majority of attention.
 
-## Filesystem
-
-- Copy a file
-- Move a file
-- Rename a file
-- Delete a file
-
 ## Strings
 
 - Split a string
@@ -95,6 +164,13 @@ This tier should receive the majority of attention.
 - Update a value
 - Check if a key exists
 - Get a default value
+
+## Filesystem
+
+- Copy a file
+- Move a file
+- Rename a file
+- Delete a file
 
 ## Dates and Times
 
@@ -196,11 +272,11 @@ These pages are useful but should generally be written only when:
 
 ---
 
-# 🌱 Future Categories
+## 🌱 Future Categories
 
 These categories may eventually be added if they continue to align with the project's philosophy.
 
-## Data Files
+### Data Files
 
 - Read a CSV file
 - Write a CSV file
@@ -209,30 +285,41 @@ These categories may eventually be added if they continue to align with the proj
 - Read a YAML file
 - Write a YAML file
 
-## Testing
+### Testing
 
 - Write a simple test
 - Run tests with pytest
 - Check expected exceptions
 
-## Iteration
+### Iteration
 
 - Loop through a dictionary
 - Loop with an index
 - Group values
 - Enumerate items
 
+### Maybe Later
+
+Only pursue these if they continue to align with the project's focus on common Python problems.
+
+#### HTTP Requests
+
+- Send a GET request
+- Send a POST request
+- Add request headers
+- Parse a JSON response
+
 ---
 
-# 💡 New Page Rule
+## 💡 New Page Rule
 
 A page is probably worth creating when:
 
 - I have searched for it multiple times
-- It solves a practical problem
-- The solution can be explained on one page
-- There is a clear recommended approach
-- It links naturally to official Python documentation
+- It solves a practical Python problem
+- The solution can be explained on a single page
+- There is a clear recommended solution
+- It naturally links to official Python documentation
 
 A useful rule of thumb:
 
@@ -240,7 +327,7 @@ A useful rule of thumb:
 
 ---
 
-# 🧭 Priority Rule
+## 🧭 Priority Rule
 
 When choosing the next page to write:
 
