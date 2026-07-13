@@ -40,6 +40,10 @@ A page is most valuable when it solves a problem many Python developers regularl
 - Find files recursively
 - Create a directory
 - Check if a directory exists
+- Get absolute path
+- Get file name from path
+- Get file extension
+- Get parent directory
 
 ---
 
@@ -51,10 +55,6 @@ This tier should receive the majority of attention.
 
 ## Filesystem
 
-- Get absolute path
-- Get file name from path
-- Get file extension
-- Get parent directory
 - Resolve relative paths
 - Copy a file
 - Move a file
