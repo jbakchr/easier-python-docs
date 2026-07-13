@@ -5,6 +5,8 @@ title: Read a JSON File
 
 # Read a JSON File
 
+---
+
 ## Problem
 
 I have a JSON file.
@@ -19,6 +21,8 @@ For example:
 ```
 
 I want to load the data into my Python program.
+
+---
 
 ## Recommended Solution
 
@@ -42,6 +46,8 @@ Output:
 }
 ```
 
+---
+
 ## Why Use json?
 
 The `json` module is part of the Python Standard Library.
@@ -61,6 +67,8 @@ import json
 with open("user.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 ```
+
+---
 
 ## What Does json.load() Return?
 
@@ -85,6 +93,8 @@ becomes:
 ```
 
 Notice that the JSON object becomes a Python dictionary.
+
+---
 
 ## JSON to Python Conversions
 
@@ -120,6 +130,8 @@ becomes:
 }
 ```
 
+---
+
 ## Accessing Data
 
 Once loaded, you can work with the data like any other Python object.
@@ -138,6 +150,8 @@ Output:
 ```text
 Alice
 ```
+
+---
 
 ## Reading a JSON Array
 
@@ -168,6 +182,8 @@ Output:
 
 The JSON array becomes a Python list.
 
+---
+
 ## Using pathlib
 
 If you prefer `pathlib`, combine it with `json.loads()`.
@@ -186,6 +202,8 @@ print(data)
 ```
 
 This style fits nicely with modern Python code that already uses `pathlib`.
+
+---
 
 ## What Happens if the File Does Not Exist?
 
@@ -219,6 +237,8 @@ if file_path.exists():
     )
 ```
 
+---
+
 ## What Happens if the JSON Is Invalid?
 
 Python raises a `JSONDecodeError`.
@@ -249,6 +269,8 @@ json.JSONDecodeError
 
 This usually means the file contains malformed JSON.
 
+---
+
 ## When Would I Use This?
 
 Common situations include:
@@ -271,6 +293,8 @@ with open("config.json", "r") as file:
 print(config["database_url"])
 ```
 
+---
+
 ## Related Problems
 
 - Write a JSON File
@@ -278,6 +302,8 @@ print(config["database_url"])
 - Convert JSON to a Dictionary
 - Convert a Dictionary to JSON
 - Read a Text File
+
+---
 
 ## Official Documentation
 
@@ -288,6 +314,8 @@ print(config["database_url"])
 Python Documentation:
 
 - https://docs.python.org/3/library/json.html
+
+---
 
 ## Summary
 
