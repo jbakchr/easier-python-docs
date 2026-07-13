@@ -107,7 +107,7 @@ config_file = Path.cwd() / "config.json"
 ## Related Problems
 
 - [Join paths](join-paths)
-- [Check if a file exists](check-if-a-file-exist)
+- [Check if a file exists](check-if-a-file-exists)
 - [Read a file](read-text-file)
 - [Write a file](write-text-file)
 - [List files in a directory](list-files-in-directory)
