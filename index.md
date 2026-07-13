@@ -6,11 +6,11 @@ Find Python solutions by problem, not by module.
 
 ---
 
-## I want to...
+## I want to ..
 
-### Filesystem
+### _Filesystem_
 
-Work with files, directories, and paths.
+.. Work with files, directories, and paths.
 
 - [Get current directory](filesystem/get-current-directory)
 - [Join paths](filesystem/join-paths)
@@ -30,9 +30,9 @@ Work with files, directories, and paths.
 
 ---
 
-### JSON
+### _JSON_
 
-Work with JSON.
+.. Work with JSON.
 
 - [Read JSON file](json/read-json-file)
 - [Write JSON file](json/write-json-file)
