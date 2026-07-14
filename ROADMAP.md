@@ -163,6 +163,10 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Provide a default value
 - Check whether an environment variable exists
 
+## Command Line Applications
+
+- Read command-line arguments
+
 ---
 
 # 🥇 Tier 1 — High-Frequency Problems
@@ -205,7 +209,6 @@ This tier should receive the majority of attention.
 
 ## Command Line Applications
 
-- Read command-line arguments
 - Accept flags
 - Display help text
 
