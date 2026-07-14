@@ -138,6 +138,10 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Remove whitespace
 - Check if text contains a substring
 
+## Lists
+
+- Sort a list
+
 ---
 
 # 🥇 Tier 1 — High-Frequency Problems
@@ -155,7 +159,6 @@ This tier should receive the majority of attention.
 
 - Add an item to a list
 - Remove an item from a list
-- Sort a list
 - Remove duplicates
 - Find an item in a list
 - Filter a list

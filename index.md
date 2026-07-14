@@ -57,6 +57,6 @@ layout: default
 
 .. Work with lists.
 
-
+- [Sort a list](lists/sort-a-list)
 
 _more will be added gradually .._
