@@ -41,4 +41,10 @@ layout: default
 
 ---
 
+### _Strings_
+
+.. Work with text.
+
+- [Split a String](strings/split-string)
+
 _more will be added gradually .._
