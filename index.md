@@ -8,7 +8,7 @@ layout: default
 
 ---
 
-### _Filesystem_
+### Filesystem
 
 .. Work with files, directories, and paths.
 
@@ -30,7 +30,7 @@ layout: default
 
 ---
 
-### _Strings_
+### Strings
 
 .. Work with text.
 
@@ -42,7 +42,7 @@ layout: default
 
 ---
 
-### _Lists_
+### Lists
 
 .. Work with lists.
 
@@ -51,18 +51,18 @@ layout: default
 
 ---
 
-### _Data Files_
+### Data Files
 
 ... Work with structured data files.
 
-#### JSON
+#### _JSON_
 
 - [Read JSON file](data-files/read-json-file)
 - [Write JSON file](data-files/write-json-file)
 - [Pretty-Print JSON](data-files/pretty-print-json)
 - [Convert JSON to a Dictionary](data-files/convert-json-to-dictionary)
 
-#### CSV
+#### _CSV_
 
 - [Read a CSV File](data-files/read-csv-file)
 - [Write a CSV File](data-files/write-csv-file)
