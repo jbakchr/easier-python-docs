@@ -136,6 +136,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Join strings
 - Replace text
 - Remove whitespace
+- Check if text contains a substring
 
 ---
 
@@ -147,7 +148,6 @@ This tier should receive the majority of attention.
 
 ## Strings
 
-- Check if text contains a substring
 - Check if text starts with a value
 - Check if text ends with a value
 
