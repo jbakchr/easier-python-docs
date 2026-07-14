@@ -138,6 +138,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 ## Dates and Times
 
 - Get current date
+- Get current datetime
 
 ### Data Files
 
@@ -186,7 +187,6 @@ This tier should receive the majority of attention.
 
 ## Dates and Times
 
-- Get current datetime
 - Format a date
 - Parse a date string
 
