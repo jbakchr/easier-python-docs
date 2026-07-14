@@ -135,6 +135,10 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Sort a list
 - Remove duplicates
 
+## Dates and Times
+
+- Get current date
+
 ### Data Files
 
 - Read a JSON file
@@ -182,7 +186,6 @@ This tier should receive the majority of attention.
 
 ## Dates and Times
 
-- Get current date
 - Get current datetime
 - Format a date
 - Parse a date string

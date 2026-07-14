@@ -51,6 +51,14 @@ layout: default
 
 ---
 
+### Date and Times
+
+.. Work with dates and times.
+
+- [Get current date](dates-and-times/get-current-date)
+
+---
+
 ### Data Files
 
 ... Work with structured data files.
