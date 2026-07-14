@@ -144,11 +144,16 @@ The goal is to build a practical collection of high-frequency Python solutions.
 
 ### Data Files
 
+#### JSON
+
 - Read a JSON file
 - Write a JSON file
 - Pretty-print JSON
 - Convert JSON to a dictionary
 - Convert a dictionary to JSON
+
+#### CSV
+
 - Read a CSV file
 - Write a CSV file
 
