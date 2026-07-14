@@ -95,6 +95,7 @@ layout: default
 ... Work with command-line applications.
 
 - [Read Command-Line Arguments](command-line-applications/read-command-line-arguments)
+- [Accept Flags](command-line-applications/accept-flags)
 
 ---
 

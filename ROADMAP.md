@@ -166,6 +166,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 ## Command Line Applications
 
 - Read command-line arguments
+- Accept flags
 
 ---
 
@@ -209,7 +210,6 @@ This tier should receive the majority of attention.
 
 ## Command Line Applications
 
-- Accept flags
 - Display help text
 
 ---
