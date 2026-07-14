@@ -157,6 +157,10 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Read a CSV file
 - Write a CSV file
 
+## Environment Variables
+
+- Read an environment variable
+
 ---
 
 # 🥇 Tier 1 — High-Frequency Problems
@@ -194,7 +198,6 @@ This tier should receive the majority of attention.
 
 ## Environment Variables
 
-- Read an environment variable
 - Provide a default value
 - Check whether an environment variable exists
 

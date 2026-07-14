@@ -80,4 +80,12 @@ layout: default
 
 ---
 
+### Environment Variables
+
+... Work with environment variables.
+
+- [Read an environment variable](environment-variables/read-environment-variable)
+
+---
+
 _more sections and pages will be added gradually .._
