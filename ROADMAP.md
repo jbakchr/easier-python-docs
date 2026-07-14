@@ -253,11 +253,6 @@ Useful tasks that developers encounter occasionally.
 - Calculate days between dates
 - Add days to a date
 
-## Subprocesses
-
-- Check command exit status
-- Pass arguments to a command
-
 ## Command Line Applications
 
 - Accept positional arguments
