@@ -141,6 +141,11 @@ The goal is to build a practical collection of high-frequency Python solutions.
 ## Lists
 
 - Sort a list
+- Remove duplicates
+
+### Data Files
+
+- Read a CSV file
 
 ---
 
@@ -159,7 +164,6 @@ This tier should receive the majority of attention.
 
 - Add an item to a list
 - Remove an item from a list
-- Remove duplicates
 - Find an item in a list
 - Filter a list
 
@@ -284,7 +288,6 @@ These categories may eventually be added if they continue to align with the proj
 
 ### Data Files
 
-- Read a CSV file
 - Write a CSV file
 - Read a TOML file
 - Write a TOML file
