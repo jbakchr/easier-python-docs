@@ -64,4 +64,4 @@ layout: default
 
 ---
 
-_more will be added gradually .._
+_more sections and pages will be added gradually .._
