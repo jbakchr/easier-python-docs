@@ -86,6 +86,7 @@ layout: default
 
 - [Read an environment variable](environment-variables/read-environment-variable)
 - [Provide a default value](environment-variables/provide-default-value)
+- [Check whether an environment variable exists](environment-variables/check-whether-environment-variable-exists)
 
 ---
 
