@@ -162,6 +162,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Read an environment variable
 - Provide a default value
 - Check whether an environment variable exists
+- Pass argument to a command
 
 ## Command Line Applications
 
