@@ -106,6 +106,7 @@ layout: default
 
 - [Run a Command](subprocess/run-a-command)
 - [Capture Command Output](subprocess/capture-command-output)
+- [Check Command Exit Status](subprocess/check-command-exit-status)
 
 ---
 

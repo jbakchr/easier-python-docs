@@ -173,6 +173,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 
 - Run a command
 - Capture command output
+- Check command exit status
 
 ---
 
