@@ -140,6 +140,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Get current date
 - Get current datetime
 - Format a date
+- Parse a date string
 
 ### Data Files
 
@@ -185,10 +186,6 @@ This tier should receive the majority of attention.
 - Move a file
 - Rename a file
 - Delete a file
-
-## Dates and Times
-
-- Parse a date string
 
 ## Environment Variables
 
