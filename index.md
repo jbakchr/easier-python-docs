@@ -53,7 +53,7 @@ layout: default
 
 ### _Data Files_
 
-... Work with data files (JSON, CSV, YAML ..).
+... Work with structured data files.
 
 - [Read JSON file](data-files/read-json-file)
 - [Write JSON file](data-files/write-json-file)
