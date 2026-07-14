@@ -85,6 +85,7 @@ layout: default
 ... Work with environment variables.
 
 - [Read an environment variable](environment-variables/read-environment-variable)
+- [Provide a default value](environment-variables/provide-default-value)
 
 ---
 

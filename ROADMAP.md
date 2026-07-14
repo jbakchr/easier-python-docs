@@ -160,6 +160,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 ## Environment Variables
 
 - Read an environment variable
+- Provide a default value
 
 ---
 
@@ -198,7 +199,6 @@ This tier should receive the majority of attention.
 
 ## Environment Variables
 
-- Provide a default value
 - Check whether an environment variable exists
 
 ## Subprocesses
