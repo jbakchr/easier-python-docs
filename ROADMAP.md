@@ -317,6 +317,89 @@ Only pursue these if they continue to align with the project's focus on common P
 - Add request headers
 - Parse a JSON response
 
+--- 
+
+## 💭 Future Ideas
+
+These ideas have strong discovery value but are intentionally
+de-prioritized until the Tier 1 and Tier 2 sections are more complete.
+
+Only pursue these when they solve real problems, are repeatedly searched
+for, or naturally connect to existing documentation.
+
+### Sets
+
+- Create a set
+- Add an item to a set
+- Remove an item from a set
+- Check if a value exists in a set
+- Find common values between sets
+- Find the difference between sets
+
+### Data Conversion
+
+- Convert a string to an integer
+- Convert a string to a float
+- Convert an integer to a string
+- Convert a list to a string
+- Convert a string to a list
+
+### Iteration
+
+- Loop through a list
+- Loop through a dictionary
+- Loop with an index
+- Loop through two lists together
+- Stop a loop early
+- Skip an iteration
+- Enumerate items
+
+### Sorting
+
+- Sort a list in reverse order
+- Sort a list of dictionaries
+- Sort objects by an attribute
+- Find the largest value
+- Find the smallest value
+
+### Exception Handling
+
+- Catch an exception
+- Handle a missing file
+- Raise an exception
+
+### Randomness
+
+- Generate a random number
+- Choose a random item from a list
+- Shuffle a list
+
+### ZIP Files
+
+- Create a ZIP file
+- Extract a ZIP file
+
+### Temporary Files
+
+- Create a temporary file
+- Create a temporary directory
+
+### UUIDs
+
+- Generate a UUID
+- Generate a unique file name
+
+### Hashing
+
+- Calculate an MD5 hash
+- Calculate a SHA256 hash
+- Hash a file
+
+### Configuration
+
+- Load configuration from a JSON file
+- Validate configuration values
+
 ---
 
 ## 💡 New Page Rule
