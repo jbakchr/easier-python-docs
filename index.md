@@ -48,5 +48,6 @@ layout: default
 - [Split a String](strings/split-string)
 - [Join Strings](strings/join-string)
 - [Replace Text](strings/replace-text)
+- [Remove Whitespace](strings/remove-whitespace)
 
 _more will be added gradually .._
