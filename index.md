@@ -30,17 +30,6 @@ layout: default
 
 ---
 
-### _JSON_
-
-.. Work with JSON.
-
-- [Read JSON file](json/read-json-file)
-- [Write JSON file](json/write-json-file)
-- [Pretty-Print JSON](json/pretty-print-json)
-- [Convert JSON to a Dictionary](json/convert-json-to-dictionary)
-
----
-
 ### _Strings_
 
 .. Work with text.
@@ -64,8 +53,12 @@ layout: default
 
 ### _Data Files_
 
-... Work with data files.
+... Work with data files (JSON, CSV, YAML ..).
 
+- [Read JSON file](data-files/read-json-file)
+- [Write JSON file](data-files/write-json-file)
+- [Pretty-Print JSON](data-files/pretty-print-json)
+- [Convert JSON to a Dictionary](data-files/convert-json-to-dictionary)
 - [Read a CSV File](data-files/read-csv-file)
 - [Write a CSV File](data-files/write-csv-file)
 
