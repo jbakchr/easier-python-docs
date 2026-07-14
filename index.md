@@ -49,5 +49,8 @@ layout: default
 - [Join Strings](strings/join-string)
 - [Replace Text](strings/replace-text)
 - [Remove Whitespace](strings/remove-whitespace)
+- [Check if Text Contains a Substring](strings/check-if-text-contains-substring)
+
+---
 
 _more will be added gradually .._
