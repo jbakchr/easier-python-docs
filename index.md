@@ -58,5 +58,6 @@ layout: default
 .. Work with lists.
 
 - [Sort a list](lists/sort-a-list)
+- [Remove duplicates from a list](lists/remove-duplicates-from-list)
 
 _more will be added gradually .._
