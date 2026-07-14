@@ -172,6 +172,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 ## Subprocesses
 
 - Run a command
+- Capture command output
 
 ---
 
@@ -207,10 +208,6 @@ This tier should receive the majority of attention.
 - Move a file
 - Rename a file
 - Delete a file
-
-## Subprocesses
-
-- Capture command output
 
 ---
 

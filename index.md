@@ -104,6 +104,9 @@ layout: default
 
 ... Work with subprocesses.
 
+- [Run a Command](subprocess/run-a-command)
+- [Capture Command Output](subprocess/capture-command-output)
 
+---
 
 _more sections and pages will be added gradually .._
