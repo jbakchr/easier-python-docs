@@ -146,6 +146,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 ### Data Files
 
 - Read a CSV file
+- Write a CSV file
 
 ---
 
@@ -288,7 +289,6 @@ These categories may eventually be added if they continue to align with the proj
 
 ### Data Files
 
-- Write a CSV file
 - Read a TOML file
 - Write a TOML file
 - Read a YAML file

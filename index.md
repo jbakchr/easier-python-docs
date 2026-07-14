@@ -67,6 +67,7 @@ layout: default
 ... Work with data files.
 
 - [Read a CSV File](data-files/read-csv-file)
+- [Write a CSV File](data-files/write-csv-file)
 
 ---
 
