@@ -139,6 +139,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 
 - Get current date
 - Get current datetime
+- Format a date
 
 ### Data Files
 
@@ -187,7 +188,6 @@ This tier should receive the majority of attention.
 
 ## Dates and Times
 
-- Format a date
 - Parse a date string
 
 ## Environment Variables

@@ -57,6 +57,7 @@ layout: default
 
 - [Get current date](dates-and-times/get-current-date)
 - [Get current datetime](dates-and-times/get-current-datetime)
+- [Format a date](dates-and-times/format-date)
 
 ---
 
