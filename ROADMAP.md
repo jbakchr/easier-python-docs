@@ -130,6 +130,10 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Convert JSON to a dictionary
 - Convert a dictionary to JSON
 
+### Strings
+
+- Split a string
+
 ---
 
 # 🥇 Tier 1 — High-Frequency Problems
@@ -140,7 +144,6 @@ This tier should receive the majority of attention.
 
 ## Strings
 
-- Split a string
 - Join strings
 - Replace text
 - Remove whitespace
