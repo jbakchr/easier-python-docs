@@ -130,6 +130,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Remove whitespace
 - Check if text contains a substring
 - Check if text starts with a value
+- Check if text ends with a value
 
 ## Lists
 
@@ -184,10 +185,6 @@ The goal is to build a practical collection of high-frequency Python solutions.
 These are problems that many Python developers encounter regularly.
 
 This tier should receive the majority of attention.
-
-## Strings
-
-- Check if text ends with a value
 
 ## Lists
 

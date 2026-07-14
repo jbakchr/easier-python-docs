@@ -40,6 +40,7 @@ layout: default
 - [Remove Whitespace](strings/remove-whitespace)
 - [Check if Text Contains a Substring](strings/check-if-text-contains-substring)
 - [Check if Text Starts with a Value](strings/check-if-rext-starts-with-a-value)
+- [Check if Text Ends with a Value](strings/check-if-text-ends-with%20a-value)
 
 ---
 
