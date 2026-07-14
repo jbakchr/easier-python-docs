@@ -133,6 +133,8 @@ The goal is to build a practical collection of high-frequency Python solutions.
 ### Strings
 
 - Split a string
+- Join strings
+- Replace text
 
 ---
 
@@ -144,8 +146,6 @@ This tier should receive the majority of attention.
 
 ## Strings
 
-- Join strings
-- Replace text
 - Remove whitespace
 - Check if text contains a substring
 - Check if text starts with a value
