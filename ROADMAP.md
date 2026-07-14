@@ -169,6 +169,10 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Accept flags
 - Display help text
 
+## Subprocesses
+
+- Run a command
+
 ---
 
 # 🥇 Tier 1 — High-Frequency Problems
@@ -206,7 +210,6 @@ This tier should receive the majority of attention.
 
 ## Subprocesses
 
-- Run a command
 - Capture command output
 
 ---
