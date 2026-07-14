@@ -55,10 +55,15 @@ layout: default
 
 ... Work with structured data files.
 
+#### JSON
+
 - [Read JSON file](data-files/read-json-file)
 - [Write JSON file](data-files/write-json-file)
 - [Pretty-Print JSON](data-files/pretty-print-json)
 - [Convert JSON to a Dictionary](data-files/convert-json-to-dictionary)
+
+#### CSV
+
 - [Read a CSV File](data-files/read-csv-file)
 - [Write a CSV File](data-files/write-csv-file)
 
