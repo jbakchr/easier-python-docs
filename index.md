@@ -46,5 +46,6 @@ layout: default
 .. Work with text.
 
 - [Split a String](strings/split-string)
+- [Join Strings](strings/join-string)
 
 _more will be added gradually .._
