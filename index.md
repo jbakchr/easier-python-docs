@@ -39,6 +39,7 @@ layout: default
 - [Replace Text](strings/replace-text)
 - [Remove Whitespace](strings/remove-whitespace)
 - [Check if Text Contains a Substring](strings/check-if-text-contains-substring)
+- [Check if Text Starts with a Value](strings/check-if-rext-starts-with-a-value)
 
 ---
 
