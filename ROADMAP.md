@@ -81,6 +81,7 @@ The goal is to build a practical collection of high-frequency Python solutions.
 - Get file extension
 - Get parent directory
 - Resolve relative paths
+- Copy a file
 
 ### Strings
 
@@ -163,7 +164,6 @@ This tier should receive the majority of attention.
 
 ## Filesystem
 
-- Copy a file
 - Move a file
 - Rename a file
 - Delete a file

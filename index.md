@@ -27,6 +27,7 @@ layout: default
 - [Get file extension](filesystem/get-file-extension)
 - [Get parent directory](filesystem/get-parent-directory)
 - [Resolve relative paths](filesystem/resolve-relative-paths)
+- [Copy a File](filesystem/copy-file)
 
 ---
 
