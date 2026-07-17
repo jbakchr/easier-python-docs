@@ -62,46 +62,6 @@ The goal is to build a practical collection of high-frequency Python solutions.
 
 ---
 
-## 📚 Current Coverage
-
-### Filesystem
-
-✅ 15 pages completed
-
-### JSON
-
-✅ 5 pages completed
-
-### Strings
-
-🚧 Not started
-
-### Lists
-
-🚧 Not started
-
-### Dictionaries
-
-🚧 Not started
-
-### Dates and Times
-
-🚧 Not started
-
-### Environment Variables
-
-🚧 Not started
-
-### Subprocesses
-
-🚧 Not started
-
-### Command Line Applications
-
-🚧 Not started
-
----
-
 ## ✅ Completed
 
 ### Filesystem
