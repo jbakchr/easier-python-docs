@@ -5,6 +5,8 @@ title: Resolve Relative Paths
 
 # Resolve Relative Paths
 
+---
+
 ## Problem
 
 I have a relative path.
@@ -22,6 +24,8 @@ or:
 ```
 
 I want to determine the full path that Python will use.
+
+---
 
 ## Recommended Solution
 
@@ -43,6 +47,8 @@ Example output:
 /home/user/project/config/settings.json
 ```
 
+---
+
 ## Why Use pathlib?
 
 `pathlib` is the modern path-handling library in the Python Standard Library.
@@ -61,6 +67,8 @@ from pathlib import Path
 
 resolved_path = Path("../config/settings.json").resolve()
 ```
+
+---
 
 ## What Is a Relative Path?
 
@@ -83,6 +91,8 @@ Open settings.json
 ```
 
 The actual location depends on where your program is running.
+
+---
 
 ## Resolving a Relative File Path
 
@@ -115,6 +125,8 @@ might produce:
 /home/user/project/config/settings.json
 ```
 
+---
+
 ## Resolving a Relative Directory Path
 
 You can also resolve directories.
@@ -132,6 +144,8 @@ Example output:
 ```text
 /home/user/project/logs
 ```
+
+---
 
 ## Resolving "." and ".."
 
@@ -177,6 +191,8 @@ Output:
 
 The resulting path is simplified automatically.
 
+---
+
 ## Alternative
 
 Older code often uses `os.path.abspath()`.
@@ -190,6 +206,8 @@ print(path)
 ```
 
 This is still perfectly valid Python and remains common in existing codebases.
+
+---
 
 ## Using a Script's Location Instead of the Current Directory
 
@@ -209,6 +227,8 @@ print(config_file)
 ```
 
 This can make applications more reliable because they do not depend on the current working directory.
+
+---
 
 ## When Would I Use This?
 
@@ -231,6 +251,8 @@ data_file = Path("./data/users.csv").resolve()
 print(data_file)
 ```
 
+---
+
 ## Related Problems
 
 - Get absolute path
@@ -238,6 +260,8 @@ print(data_file)
 - Join paths
 - Get current directory
 - Check if a file exists
+
+---
 
 ## Official Documentation
 
@@ -249,6 +273,8 @@ Python Documentation:
 
 - https://docs.python.org/3/library/pathlib.html
 - https://docs.python.org/3/library/os.path.html
+
+---
 
 ## Summary
 
