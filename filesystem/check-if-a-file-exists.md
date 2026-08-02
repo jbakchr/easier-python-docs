@@ -145,6 +145,9 @@ Python Documentation:
 - [pathlib](https://docs.pythonrary/pathlib.html
 - [os.path](https://docs.python.org/3/library/os.path.html)
 
+---
+
+## Summary
 
 If you need to check whether a path exists:
 

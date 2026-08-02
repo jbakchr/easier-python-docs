@@ -5,6 +5,8 @@ title: Check if a Directory Exists
 
 # Check if a Directory Exists
 
+---
+
 ## Problem
 
 I want to check whether a directory exists before using it.
@@ -16,6 +18,8 @@ output/
 ```
 
 I want to verify that the directory is already present.
+
+---
 
 ## Recommended Solution
 
@@ -37,6 +41,8 @@ Example output:
 ```text
 Directory exists
 ```
+
+---
 
 ## Why Use `is_dir()`?
 
@@ -98,6 +104,8 @@ True
 
 If you specifically need a directory, `is_dir()` is usually the better choice.
 
+---
+
 ## Example: Create a Directory Only If It Does Not Exist
 
 ```python
@@ -110,6 +118,8 @@ if not output_dir.is_dir():
 ```
 
 This creates the directory only when it is missing.
+
+---
 
 ## Create the Directory Regardless
 
@@ -127,6 +137,8 @@ See:
 
 - Create a directory
 
+---
+
 ## Alternative
 
 Older Python code often uses `os.path.isdir()`.
@@ -140,6 +152,8 @@ if os.path.isdir("output"):
 
 This is still perfectly valid Python and is commonly found in existing codebases.
 
+---
+
 ## What About Parent Directories?
 
 You can check any directory path.
@@ -152,6 +166,8 @@ project_dir = Path("/home/jonas/project")
 if project_dir.is_dir():
     print("Project directory exists")
 ```
+
+---
 
 ## When Would I Use This?
 
@@ -175,6 +191,8 @@ if reports_dir.is_dir():
     print("Generating report...")
 ```
 
+---
+
 ## Related Problems
 
 - Get current directory
@@ -182,6 +200,8 @@ if reports_dir.is_dir():
 - Check if a file exists
 - Create a directory
 - List files in a directory
+
+---
 
 ## Official Documentation
 
@@ -193,6 +213,8 @@ Python Documentation:
 
 - https://docs.python.org/3/library/pathlib.html
 - https://docs.python.org/3/library/os.path.html
+
+---
 
 ## Summary
 
