@@ -5,6 +5,8 @@ title: Write a Text File
 
 # Write a Text File
 
+---
+
 ## Problem
 
 I want to write text to a file.
@@ -16,6 +18,8 @@ README.md
 ```
 
 and store some text inside it.
+
+---
 
 ## Recommended Solution
 
@@ -30,6 +34,8 @@ Path("README.md").write_text("# My Project")
 The file will be created if it does not already exist.
 
 If the file already exists, its contents will be replaced.
+
+---
 
 ## Why Use `pathlib`?
 
@@ -50,6 +56,8 @@ from pathlib import Path
 Path("notes.txt").write_text("Hello, World!")
 ```
 
+---
+
 ## Writing Using UTF-8
 
 It is often a good idea to be explicit about the file encoding.
@@ -65,6 +73,8 @@ Path("README.md").write_text(
 
 This helps ensure your code behaves consistently across different systems.
 
+---
+
 ## Alternative
 
 Many Python programs use the built-in `open()` function.
@@ -75,6 +85,8 @@ with open("README.md", "w", encoding="utf-8") as file:
 ```
 
 This is still perfectly valid Python and is commonly found in existing codebases.
+
+---
 
 ## What Happens If the File Already Exists?
 
@@ -104,6 +116,8 @@ New content
 
 The previous contents are overwritten.
 
+---
+
 ## Writing Multiple Lines
 
 You can include newline characters (`\n`) in your text.
@@ -123,6 +137,8 @@ First line
 Second line
 Third line
 ```
+
+---
 
 ## When Would I Use This?
 
@@ -149,6 +165,8 @@ Status: OK
 Path("report.txt").write_text(report)
 ```
 
+---
+
 ## Related Problems
 
 - Get current directory
@@ -157,15 +175,14 @@ Path("report.txt").write_text(report)
 - Read a text file
 - Append to a text file
 
+---
+
 ## Official Documentation
 
 - [pathlib.Path.write_text()](https://docs.python.org/3/library/pathlib.html#pathlib.Path.write_text)
 - [open()](https://docs.python.org/3/library/functions.html#open)
 
-Python Documentation:
-
-- https://docs.python.org/3/library/pathlib.html
-- https://docs.python.org/3/library/functions.html#open
+---
 
 ## Summary
 
