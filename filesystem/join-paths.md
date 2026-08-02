@@ -56,5 +56,6 @@ path = os.path.join(os.getcwd(), "README.md")
 
 ## Official Documentation
 
-- pathlib.Path
-- pathlib.Path.cwd()
+- [pathlib.Path](https://docs.python.org/3/library/pathlib.html#pathlib.Path)
+- [pathlib.Path.cwd()](https://docs.python.org/3/library/pathlib.html#pathlib.Path.cwd)
+- [os.getcwd()](https://docs.python.org/3/library/os.html#os.getcwd)
