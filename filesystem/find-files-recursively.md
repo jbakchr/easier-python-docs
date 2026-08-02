@@ -42,29 +42,30 @@ for file in Path(".").rglob("*.py"):
     print(file)
 ```
 
-Exampl* output:
+Example output:
 
 ```text
 src/main.py
-src/*tils.py
+src/utils.py
 tests/test_main.py
 ```
 
-##*Why Use `pathlib`?
+### Why Use `pathlib`?
 
-`pathlib* is the modern path-handling libra*y in the Python Standard Library.
-*It provides:
+`pathlib` is the modern path-handling library in the Python Standard Library.
 
-- A clean and readab*e API
+It provides:
+
+- A clean and readable API
 - Cross-platform support
-- O*ject-oriented paths
-- Powerful fil*-matching capabilities
+- Object-oriented paths
+- Powerful file-matching capabilities
 
-Searching *ecursively becomes very concise:
+Searching recursively becomes very concise:
 
-*``python
+```python
 from pathlib import Path
-*for file*in*Path(".").rglob("*.py"):
+for file in Path(".").rglob("*.py"):
     print(file)
 ```
 
@@ -89,12 +90,12 @@ for file in Path(".").rglob("*.*y"):
     print(file)
 ```
 
-Find all*Markdown files:
+Find all Markdown files:
 
 ```python
-from pa*hlib import Path
+from pathlib import Path
 
-for file*in Path(".").rglob("*.md"):
+for file in Path(".").rglob("*.md"):
     print(file)
 ```
 
@@ -139,28 +140,29 @@ To exclude directories:
 from pathlib import Path
 
 for path in Path(".").rglob("*"):
-    if path.is_file():*        print(path)
+    if path.is_file():
+        print(path)
 ```
 
-Example o*tput:
+Example output:
 
 ```text
 README.md
 src/main.*y
 src/utils.py
 tests/test_main.py
-*``
+```
 
 ## Search From a Specific Dire*tory
 
-You are not limited to the c*rrent directory.
+You are not limited to the current directory.
 
 ```python
-from p*thlib import Path
+from pathlib import Path
 
-project_dir =*Path("/path/to/project")
+project_dir = Path("/path/to/project")
 
-for file*in project_dir.rglob("*.py"):
+for file in project_dir.rglob("*.py"):
     print(file)
 ```
 
@@ -198,28 +200,28 @@ for file in Path(".").rglob("*.md"):
     print(f"Found ma*kdown file: {file}")
 ```
 
-## Relat*d Problems
+## Related Problems
 
-- Get current director*
+- Get current directory
 - Join paths
-- Check if a file ex*sts
+- Check if a file exists
 - List files in a directory
-- *ead a text file
+- Read a text file
 
-## Official Docum*ntation
+## Official Documentation
 
 - `pathlib.Path.rglob()`
-* `pathlib.Path.glob()`
-- `os.walk(*`
+- `pathlib.Path.glob()`
+- `os.walk()`
 
 Python Documentation:
 
-- https:*/docs.python.org/3/library/pathlib*html
+- https://docs.python.org/3/library/pathlib.html
 - https://docs.python.org/3/l*brary/os.html
 
 ## Summary
 
-If you *eed to search a directory and all *f its subdirectories, prefer:
+If you need to search a directory and all of its subdirectories, prefer:
 
 ```python
 from pathlib import Path
@@ -234,6 +236,6 @@ Use:
 Path(".").rglob("*.ext")
 ```
 
-to find files matching*a specific pattern.
+to find files matching a specific pattern.
 
-In modern Pyt*on code, `pathlib.Path.rglob()` is*generally the recommended approach*for recursive file searches.
+In modern Python code, `pathlib.Path.rglob()` is generally the recommended approach for recursive file searches.
