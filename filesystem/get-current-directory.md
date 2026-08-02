@@ -116,13 +116,8 @@ config_file = Path.cwd() / "config.json"
 
 ## Official Documentation
 
-- `pathlib.Path.cwd()`
-- `os.getcwd()`
-
-Python Documentation:
-
-- https://docs.python.org/3/library/pathlib.html
-- https://docs.python.org/3/library/os.html
+- [pathlib.Path.cwd()](https://docs.python.org/3/library/pathlib.html#pathlib.Path.cwd)
+- [os.getcwd()](https://docs.python.org/3/library/os.html#os.getcwd)
 
 ---
 
@@ -137,4 +132,3 @@ cwd = Path.cwd()
 ```
 
 It is the modern and recommended approach for working with filesystem paths in Python.
-`
